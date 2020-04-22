@@ -1,0 +1,348 @@
+import { Chanel } from "./channelsContext"
+
+export const TEST_DATA: Chanel[] = [
+  {
+    name: "cretetion",
+    data: {
+      mature: true,
+      status: "It's a Divison kind of Day",
+      broadcaster_language: "en",
+      display_name: "cretetion",
+      game: "Tom Clancy's The Division",
+      language: "en",
+      _id: 90401618,
+      name: "cretetion",
+      created_at: "2015-05-06T15:57:39Z",
+      updated_at: "2016-10-10T22:00:45Z",
+      delay: null,
+      logo:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/cretetion-profile_image-12bae34d9765f222-300x300.jpeg",
+      banner: null,
+      video_banner:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/cretetion-channel_offline_image-0410bb4dec3a9991-1920x1080.jpeg",
+      background: null,
+      profile_banner:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/cretetion-profile_banner-c50d8ffd97fc7ffa-480.png",
+      profile_banner_background_color: null,
+      partner: false,
+      url: "https://www.twitch.tv/cretetion",
+      views: 11631,
+      followers: 908,
+      _links: {
+        self: "https://api.twitch.tv/kraken/channels/cretetion",
+        follows: "https://api.twitch.tv/kraken/channels/cretetion/follows",
+        commercial:
+          "https://api.twitch.tv/kraken/channels/cretetion/commercial",
+        stream_key:
+          "https://api.twitch.tv/kraken/channels/cretetion/stream_key",
+        chat: "https://api.twitch.tv/kraken/chat/cretetion",
+        subscriptions:
+          "https://api.twitch.tv/kraken/channels/cretetion/subscriptions",
+        editors: "https://api.twitch.tv/kraken/channels/cretetion/editors",
+        teams: "https://api.twitch.tv/kraken/channels/cretetion/teams",
+        videos: "https://api.twitch.tv/kraken/channels/cretetion/videos",
+      },
+    },
+    status: "Online",
+  },
+  {
+    name: "storbeck",
+    data: {
+      mature: null,
+      status: null,
+      broadcaster_language: null,
+      display_name: "storbeck",
+      game: null,
+      language: "en",
+      _id: 86238744,
+      name: "storbeck",
+      created_at: "2015-03-25T02:23:40Z",
+      updated_at: "2016-10-10T16:30:23Z",
+      delay: null,
+      logo:
+        "https://static-cdn.jtvnw.net/user-default-pictures/49988c7b-57bc-4dee-bd4f-6df4ad215d3a-profile_image-300x300.jpg",
+      banner: null,
+      video_banner: null,
+      background: null,
+      profile_banner: null,
+      profile_banner_background_color: null,
+      partner: false,
+      url: "https://www.twitch.tv/storbeck",
+      views: 1019,
+      followers: 10,
+      _links: {
+        self: "https://api.twitch.tv/kraken/channels/storbeck",
+        follows: "https://api.twitch.tv/kraken/channels/storbeck/follows",
+        commercial: "https://api.twitch.tv/kraken/channels/storbeck/commercial",
+        stream_key: "https://api.twitch.tv/kraken/channels/storbeck/stream_key",
+        chat: "https://api.twitch.tv/kraken/chat/storbeck",
+        subscriptions:
+          "https://api.twitch.tv/kraken/channels/storbeck/subscriptions",
+        editors: "https://api.twitch.tv/kraken/channels/storbeck/editors",
+        teams: "https://api.twitch.tv/kraken/channels/storbeck/teams",
+        videos: "https://api.twitch.tv/kraken/channels/storbeck/videos",
+      },
+    },
+    status: "Offline",
+  },
+  {
+    name: "freecodecamp",
+    data: {
+      mature: false,
+      status:
+        "Greg working on Electron-Vue boilerplate w/ Akira #programming #vuejs #electron",
+      broadcaster_language: "en",
+      display_name: "FreeCodeCamp",
+      game: "Creative",
+      language: "en",
+      _id: 79776140,
+      name: "freecodecamp",
+      created_at: "2015-01-14T03:36:47Z",
+      updated_at: "2016-10-10T22:02:01Z",
+      delay: null,
+      logo:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/freecodecamp-profile_image-d9514f2df0962329-300x300.png",
+      banner: null,
+      video_banner:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/freecodecamp-channel_offline_image-b8e133c78cd51cb0-1920x1080.png",
+      background: null,
+      profile_banner:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/freecodecamp-profile_banner-6f5e3445ff474aec-480.png",
+      profile_banner_background_color: null,
+      partner: false,
+      url: "https://www.twitch.tv/freecodecamp",
+      views: 163747,
+      followers: 10122,
+      _links: {
+        self: "https://api.twitch.tv/kraken/channels/freecodecamp",
+        follows: "https://api.twitch.tv/kraken/channels/freecodecamp/follows",
+        commercial:
+          "https://api.twitch.tv/kraken/channels/freecodecamp/commercial",
+        stream_key:
+          "https://api.twitch.tv/kraken/channels/freecodecamp/stream_key",
+        chat: "https://api.twitch.tv/kraken/chat/freecodecamp",
+        subscriptions:
+          "https://api.twitch.tv/kraken/channels/freecodecamp/subscriptions",
+        editors: "https://api.twitch.tv/kraken/channels/freecodecamp/editors",
+        teams: "https://api.twitch.tv/kraken/channels/freecodecamp/teams",
+        videos: "https://api.twitch.tv/kraken/channels/freecodecamp/videos",
+      },
+    },
+    status: "Online",
+  },
+  {
+    name: "OgamingSC2",
+    data: {
+      mature: false,
+      status: "UnderDogs - Rediffusion - Qualifier.",
+      broadcaster_language: "fr",
+      display_name: "OgamingSC2",
+      game: "StarCraft II",
+      language: "en",
+      _id: 71852806,
+      name: "ogamingsc2",
+      created_at: "2014-09-24T15:06:58Z",
+      updated_at: "2016-10-10T22:04:47Z",
+      delay: null,
+      logo:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/e066dae0-60c1-4570-8d08-c95f1c528142-profile_image-300x300.png",
+      banner: null,
+      video_banner:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/ogamingsc2-channel_offline_image-1570cf4930177aa3-1920x1080.jpeg",
+      background: null,
+      profile_banner:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/ogamingsc2-profile_banner-d418aed2c0ef7d35-480.jpeg",
+      profile_banner_background_color: null,
+      partner: true,
+      url: "https://www.twitch.tv/ogamingsc2",
+      views: 20694507,
+      followers: 40895,
+      _links: {
+        self: "https://api.twitch.tv/kraken/channels/ogamingsc2",
+        follows: "https://api.twitch.tv/kraken/channels/ogamingsc2/follows",
+        commercial:
+          "https://api.twitch.tv/kraken/channels/ogamingsc2/commercial",
+        stream_key:
+          "https://api.twitch.tv/kraken/channels/ogamingsc2/stream_key",
+        chat: "https://api.twitch.tv/kraken/chat/ogamingsc2",
+        subscriptions:
+          "https://api.twitch.tv/kraken/channels/ogamingsc2/subscriptions",
+        editors: "https://api.twitch.tv/kraken/channels/ogamingsc2/editors",
+        teams: "https://api.twitch.tv/kraken/channels/ogamingsc2/teams",
+        videos: "https://api.twitch.tv/kraken/channels/ogamingsc2/videos",
+      },
+    },
+    status: "Online",
+  },
+  {
+    name: "ESL_SC2",
+    data: {
+      mature: false,
+      status:
+        "RERUN: StarCraft 2 - Terminator vs. Parting (PvP) - IEM Katowice 2015 - EU Qualifier",
+      broadcaster_language: "en",
+      display_name: "ESL_SC2",
+      game: "StarCraft II",
+      language: "en",
+      _id: 30220059,
+      name: "esl_sc2",
+      created_at: "2012-05-02T09:59:20Z",
+      updated_at: "2016-10-10T22:04:21Z",
+      delay: null,
+      logo:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/esl_sc2-profile_image-d6db9488cec97125-300x300.jpeg",
+      banner: null,
+      video_banner:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/esl_sc2-channel_offline_image-5a8657f8393c9d85-1920x1080.jpeg",
+      background: null,
+      profile_banner:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/esl_sc2-profile_banner-f8295b33d1846e75-480.jpeg",
+      profile_banner_background_color: "#050506",
+      partner: true,
+      url: "https://www.twitch.tv/esl_sc2",
+      views: 60991791,
+      followers: 135394,
+      _links: {
+        self: "https://api.twitch.tv/kraken/channels/esl_sc2",
+        follows: "https://api.twitch.tv/kraken/channels/esl_sc2/follows",
+        commercial: "https://api.twitch.tv/kraken/channels/esl_sc2/commercial",
+        stream_key: "https://api.twitch.tv/kraken/channels/esl_sc2/stream_key",
+        chat: "https://api.twitch.tv/kraken/chat/esl_sc2",
+        subscriptions:
+          "https://api.twitch.tv/kraken/channels/esl_sc2/subscriptions",
+        editors: "https://api.twitch.tv/kraken/channels/esl_sc2/editors",
+        teams: "https://api.twitch.tv/kraken/channels/esl_sc2/teams",
+        videos: "https://api.twitch.tv/kraken/channels/esl_sc2/videos",
+      },
+    },
+    status: "Online",
+  },
+  {
+    name: "RobotCaleb",
+    data: {
+      mature: false,
+      status: "Code wrangling",
+      broadcaster_language: "en",
+      display_name: "RobotCaleb",
+      game: "Programming",
+      language: "en",
+      _id: 54925078,
+      name: "robotcaleb",
+      created_at: "2014-01-13T04:07:33Z",
+      updated_at: "2016-10-10T18:01:58Z",
+      delay: null,
+      logo:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/robotcaleb-profile_image-9422645f2f0f093c-300x300.png",
+      banner: null,
+      video_banner: null,
+      background: null,
+      profile_banner:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/robotcaleb-profile_banner-7167a1b68fb1c502-480.png",
+      profile_banner_background_color: null,
+      partner: false,
+      url: "https://www.twitch.tv/robotcaleb",
+      views: 4602,
+      followers: 20,
+      _links: {
+        self: "https://api.twitch.tv/kraken/channels/robotcaleb",
+        follows: "https://api.twitch.tv/kraken/channels/robotcaleb/follows",
+        commercial:
+          "https://api.twitch.tv/kraken/channels/robotcaleb/commercial",
+        stream_key:
+          "https://api.twitch.tv/kraken/channels/robotcaleb/stream_key",
+        chat: "https://api.twitch.tv/kraken/chat/robotcaleb",
+        subscriptions:
+          "https://api.twitch.tv/kraken/channels/robotcaleb/subscriptions",
+        editors: "https://api.twitch.tv/kraken/channels/robotcaleb/editors",
+        teams: "https://api.twitch.tv/kraken/channels/robotcaleb/teams",
+        videos: "https://api.twitch.tv/kraken/channels/robotcaleb/videos",
+      },
+    },
+    status: "Online",
+  },
+  {
+    name: "habathcx",
+    data: {
+      mature: null,
+      status: "Massively Effective",
+      broadcaster_language: null,
+      display_name: "Habathcx",
+      game: null,
+      language: "en",
+      _id: 6726509,
+      name: "habathcx",
+      created_at: "2009-06-07T15:04:54Z",
+      updated_at: "2016-10-10T03:00:57Z",
+      delay: null,
+      logo:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/habathcx-profile_image-d75385dbe4f42a66-300x300.jpeg",
+      banner: null,
+      video_banner: null,
+      background: null,
+      profile_banner: null,
+      profile_banner_background_color: null,
+      partner: false,
+      url: "https://www.twitch.tv/habathcx",
+      views: 764,
+      followers: 14,
+      _links: {
+        self: "https://api.twitch.tv/kraken/channels/habathcx",
+        follows: "https://api.twitch.tv/kraken/channels/habathcx/follows",
+        commercial: "https://api.twitch.tv/kraken/channels/habathcx/commercial",
+        stream_key: "https://api.twitch.tv/kraken/channels/habathcx/stream_key",
+        chat: "https://api.twitch.tv/kraken/chat/habathcx",
+        subscriptions:
+          "https://api.twitch.tv/kraken/channels/habathcx/subscriptions",
+        editors: "https://api.twitch.tv/kraken/channels/habathcx/editors",
+        teams: "https://api.twitch.tv/kraken/channels/habathcx/teams",
+        videos: "https://api.twitch.tv/kraken/channels/habathcx/videos",
+      },
+    },
+    status: "Online",
+  },
+  {
+    name: "noobs2ninjas",
+    data: {
+      mature: false,
+      status:
+        "Building a new hackintosh for #programming and gaming and having a few beers! Lets do this! #pcbuilding ",
+      broadcaster_language: "en",
+      display_name: "noobs2ninjas",
+      game: "Creative",
+      language: "en",
+      _id: 82534701,
+      name: "noobs2ninjas",
+      created_at: "2015-02-13T08:13:10Z",
+      updated_at: "2016-10-10T09:31:04Z",
+      delay: null,
+      logo:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/noobs2ninjas-profile_image-34707f847a73d934-300x300.png",
+      banner: null,
+      video_banner:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/noobs2ninjas-channel_offline_image-7f974925e9dc942c-1920x1080.jpeg",
+      background: null,
+      profile_banner:
+        "https://static-cdn.jtvnw.net/jtv_user_pictures/noobs2ninjas-profile_banner-0a065656911e6d4d-480.jpeg",
+      profile_banner_background_color: null,
+      partner: false,
+      url: "https://www.twitch.tv/noobs2ninjas",
+      views: 48102,
+      followers: 835,
+      _links: {
+        self: "https://api.twitch.tv/kraken/channels/noobs2ninjas",
+        follows: "https://api.twitch.tv/kraken/channels/noobs2ninjas/follows",
+        commercial:
+          "https://api.twitch.tv/kraken/channels/noobs2ninjas/commercial",
+        stream_key:
+          "https://api.twitch.tv/kraken/channels/noobs2ninjas/stream_key",
+        chat: "https://api.twitch.tv/kraken/chat/noobs2ninjas",
+        subscriptions:
+          "https://api.twitch.tv/kraken/channels/noobs2ninjas/subscriptions",
+        editors: "https://api.twitch.tv/kraken/channels/noobs2ninjas/editors",
+        teams: "https://api.twitch.tv/kraken/channels/noobs2ninjas/teams",
+        videos: "https://api.twitch.tv/kraken/channels/noobs2ninjas/videos",
+      },
+    },
+    status: "Online",
+  },
+]
