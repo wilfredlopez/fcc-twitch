@@ -1,9 +1,9 @@
-import React from "react"
-import useMediaQuery from "@material-ui/core/useMediaQuery"
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles"
+import useMediaQuery from "@material-ui/core/useMediaQuery"
+import React from "react"
+import { ChannelContextProvider } from "./context/channelsContext"
 import Routes from "./Routes"
 import { theme } from "./theme/theme"
-import { ChannelContextProvider } from "./context/channelsContext"
 
 function App() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)")
@@ -19,6 +19,8 @@ function App() {
       }),
     [prefersDarkMode],
   )
+
+  // const button: any = (<wl-button>HELLO</wl-button>) as any
 
   return (
     <ThemeProvider theme={preferedTheme}>
